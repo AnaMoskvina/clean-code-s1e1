@@ -5,6 +5,14 @@ body {
   font-family: Lato, sans-serif;
 }
 
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
 .header {
   width: 500px;
   margin: 0 auto;
@@ -52,7 +60,7 @@ ul {
 }
 
 .task, 
-.heading-3 {
+.heading-2 {
   list-style: none;
 }
 
@@ -76,8 +84,7 @@ input,
 }
 
 /* Heading */
-.hading-3,
-.add-task__label {
+.heading-2 {
   color: #333;
   font-weight: 700;
   font-size: 15px;
